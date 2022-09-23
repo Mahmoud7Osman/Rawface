@@ -1,0 +1,8 @@
+#!/bin/bash
+
+printf "Rawface Setup: installing C++ Compiler...\n"
+sudo apt install g++ -y &> /dev/null
+printf "Rawface Setup: Compiling Rawface...\n"
+sudo g++ src/program.cpp -o /bin/rawface
+printf "Rawface Setup: Installed Successfully, This Software Is Made By <3 With Mahmoud7Osman on github\n\n"
+rawface

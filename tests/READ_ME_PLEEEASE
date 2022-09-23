@@ -1,0 +1,3 @@
+Example About Rawface:
+	execute "rawface exec01.py -d" to decode this binary file
+	execute "rawface exec.py -c"   to encode this python file
