@@ -8,6 +8,6 @@
 <pre>0100100101011100010010100101001010101.....</pre>
 <h4>So You Just Got A Raw Readable Binary Format Of Your File! (This is How Your Python Script is Stored On The Hard Disk And The Memory)</h4>
 <h4>Save The Output Of The Last Command in a different File And Execute This Command</h4>
-<pre>$ rawface binary.py -d <pre>
+<pre>$ rawface binary.py -d </pre>
 <h4>This Command Will Produce Something Like This</h4>
 <pre>print ("Hello Python")  #(Or Any Code You Wrote)</pre>
