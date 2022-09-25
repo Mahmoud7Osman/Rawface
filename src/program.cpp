@@ -50,7 +50,7 @@ dtob:
 btod:
 	// Translating Binary to Data And Echoing it to stdout
 	char bits[8];
-	unsigned char dbyte;
+	unsigned char dbyte=0;
 
 	for (char* byte=data; data<=entry+(filestat.st_size-1);data+=8){
 		if (data+8>entry+(filestat.st_size-1)) break;
